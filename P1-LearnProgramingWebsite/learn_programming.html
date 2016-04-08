@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "utf-8">
+        <title>Learn programming</title>
+         <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+         <style type="text/css" media="screen">
+            .container{
+                width: 75%;
+                margin-left: auto;
+                margin-right: auto;
+                background: #f7fdff;
+            }
+            .container ul{
+                list-style: none;
+            }
+            .title-page{
+                color: #365674;
+                font-weight: bold;
+                text-align: center;
+                font-size: 2.3em;
+            }
+            .head a{
+                font-size: 1.3em;
+            }
+            .resources{
+                margin-top: 1%;
+            }
+            
+             .resource-row li a {
+                display: inline-block;
+             }
+             .left-row{
+                float:left;
+                width: 30%;
+                margin-top: 3%;
+                font-size:.9em;
+                
+             }
+             .right-row{
+                float:right;
+                width: 70%;
+               
+             }
+             .one-resource{
+                overflow: hidden;
+                font-size: 1.3em;
+                
+             }
+             .title-resource{
+                font-size: 1.5em;
+                color: #f9654a;
+             }
+
+             .topic a{
+                font-weight: bold;
+                font-style: italic;
+             }
+
+             .description{
+                margin-top: 15px;
+             }
+         </style>
+         
+         <script type="text/javascript" charset="utf-8">
+            $(document).on('click', '.topic a', function(event){
+                var url = $(this).attr('id');
+                window.open(url, '_blank');
+            });
+         
+         </script>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="head">
+                <p class="title-page">Learn Programming</p>
+                <a>If you want to learn programming you should practice, practice and practice.
+                Here are a list of resources that can help you in this journey.</a>
+            </div>
+            <div class="resources">
+                
+    <div class="one-resource">
+        <div class="left-row">
+            <ul class="resource-row">
+                <li>Type of resource: <a> Online class</a></li>
+                <li>Technologies: <a> C, Python, Java</a></li>
+                <li>Languages: <a>English</a></li>
+            </ul>
+        </div>
+        <div class="right-row">
+            <ul class="resource-row">
+                <li><a class="title-resource">Coursera - Algorithms: Design and Analysis, Part 1</a></li>
+                <li class="topic">View the <a id=https://www.coursera.org/course/algo> resource </a></li>
+                <li><a class="description">In this course you could learn the fundamentals of algorithm design.</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="one-resource">
+        <div class="left-row">
+            <ul class="resource-row">
+                <li>Type of resource: <a> Practice</a></li>
+                <li>Technologies: <a> C++, Python, Java</a></li>
+                <li>Languages: <a>English, Mandarin Chinese, Russian</a></li>
+            </ul>
+        </div>
+        <div class="right-row">
+            <ul class="resource-row">
+                <li><a class="title-resource">Code chef</a></li>
+                <li class="topic">View the <a id=https://www.codechef.com/> resource </a></li>
+                <li><a class="description">Programming community that host contest and training for programmers.</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="one-resource">
+        <div class="left-row">
+            <ul class="resource-row">
+                <li>Type of resource: <a> Practice</a></li>
+                <li>Technologies: <a> Python, Java</a></li>
+                <li>Languages: <a>English</a></li>
+            </ul>
+        </div>
+        <div class="right-row">
+            <ul class="resource-row">
+                <li><a class="title-resource">Coding bat</a></li>
+                <li class="topic">View the <a id=http://codingbat.com/> resource </a></li>
+                <li><a class="description">Web site with a list of coding problems to improves skill in Java and Python.</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="one-resource">
+        <div class="left-row">
+            <ul class="resource-row">
+                <li>Type of resource: <a> Practice</a></li>
+                <li>Technologies: <a> C++, Python, Java</a></li>
+                <li>Languages: <a>Spanish</a></li>
+            </ul>
+        </div>
+        <div class="right-row">
+            <ul class="resource-row">
+                <li><a class="title-resource">Omega Up</a></li>
+                <li class="topic">View the <a id=https://omegaup.com/> resource </a></li>
+                <li><a class="description">Web project help improve skill of software developers through problems solving.</a></li>
+            </ul>
+        </div>
+    </div>
+
+            </div>
+        </div>
+    </body>
+    </html>
